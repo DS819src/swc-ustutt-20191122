@@ -2,4 +2,6 @@
 
 touch touchfile.txt
 
+touch touchFile.txt
+
 exit 0
