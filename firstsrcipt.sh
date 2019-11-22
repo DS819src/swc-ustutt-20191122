@@ -12,4 +12,6 @@ else
 	ls > list.txt
 fi
 
+cat list.txt
+
 exit 0
