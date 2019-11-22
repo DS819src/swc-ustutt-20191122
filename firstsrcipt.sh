@@ -6,6 +6,10 @@ touch touchFile.txt
 
 touch TouchFile.txt
 
-ls >> list.txt
+if [ -f list.txt ]; then
+	ls >> list.txt
+else
+	ls > list.txt
+fi
 
 exit 0
